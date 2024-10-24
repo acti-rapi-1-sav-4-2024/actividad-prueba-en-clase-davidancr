@@ -1,5 +1,5 @@
 def func(x):
-    return x + 1
+    return x + 2
 
 
 def test_answer():
@@ -8,4 +8,4 @@ def test_answer():
     # act
     result = func(3)
     # assert
-    assert result == 5, f"El número esperado es 5, pero su función devuelve: {result}"
+    assert result == 5, f"El número esperado es 5, pero su  función devuelve: {result}"
